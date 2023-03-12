@@ -1,0 +1,42 @@
+:root {
+  --primary: #5adbb5;
+  --primary-hover: #78f1cd;
+  --secondary: #dbaeed;
+  --backgound: #1c1c1c;
+}
+
+* {
+  font-family: "Tilt Warp", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: var(--primary);
+  text-align: center;
+}
+
+.github-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+.github-icon {
+  color: white;
+  height: 50px;
+  width: 50px;
+}
